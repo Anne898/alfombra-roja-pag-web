@@ -5,9 +5,7 @@
 .u-locked-block {
   pointer-events: none!important;
 }
-/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css 
-Lobster
-*/
+/*! lobster normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -17302,7 +17300,6 @@ p {
   font-family: 'Style Script', cursive;
   font-style: italic;
 }
-
 .u-rectangle {
   border-radius: 0;
 }
@@ -41536,7 +41533,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
 .u-header .u-sheet-1 {
-  min-height: 201px;
+  min-height: 171px;
 }
 
 .u-header .u-text-1 {
@@ -41546,11 +41543,11 @@ a.u-link.u-text-hover-grey-90:hover {
   box-shadow: 0px 0 0 rgba(0,0,0,0);
   text-transform: uppercase;
   font-weight: 700;
-  margin: 65px auto 30px;
+  margin: 65px auto 0;
 }
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
-    min-height: 201px;
+    min-height: 174px;
   }
 
   .u-header .u-text-1 {
@@ -41560,23 +41557,38 @@ a.u-link.u-text-hover-grey-90:hover {
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     width: 650px;
+    margin-bottom: 4px;
   }
 }
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 171px;
+  }
 
+  .u-header .u-text-1 {
+    margin-bottom: 0;
+  }
+}
 @media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 171px;
+  }
+
   .u-header .u-text-1 {
     width: 540px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 228px;
+    min-height: 202px;
   }
 
   .u-header .u-text-1 {
     width: auto;
     font-size: 4.5rem;
-    margin: 45px 0 26px;
+    margin-top: 45px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 .u-footer .u-sheet-1 {
